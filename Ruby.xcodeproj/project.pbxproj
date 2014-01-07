@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12041C80161C894900589018 /* utilitiesI70.png in Resources */ = {isa = PBXBuildFile; fileRef = 12041C7F161C894900589018 /* utilitiesI70.png */; };
+		12041C84161DD5E200589018 /* IEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12041C83161DD5E200589018 /* IEViewController.m */; };
+		1225A8C81624671F00225492 /* MIRBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1225A8C71624671F00225492 /* MIRBViewController.m */; };
+		1239C9ED16062F0F001B6B01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1239C9EC16062F0F001B6B01 /* UIKit.framework */; };
+		1239C9EF16062F0F001B6B01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1239C9EE16062F0F001B6B01 /* Foundation.framework */; };
+		1239C9F116062F0F001B6B01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1239C9F016062F0F001B6B01 /* CoreGraphics.framework */; };
+		1239C9F716062F0F001B6B01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1239C9F516062F0F001B6B01 /* InfoPlist.strings */; };
+		1239C9F916062F0F001B6B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1239C9F816062F0F001B6B01 /* main.m */; };
+		1239C9FD16062F0F001B6B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1239C9FC16062F0F001B6B01 /* AppDelegate.m */; };
+		1239CA0016062F0F001B6B01 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1239C9FE16062F0F001B6B01 /* MainStoryboard_iPhone.storyboard */; };
+		1239CA29160630B6001B6B01 /* array.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA1C160630B6001B6B01 /* array.rb */; };
+		1239CA2A160630B6001B6B01 /* class.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA1D160630B6001B6B01 /* class.rb */; };
+		1239CA2B160630B6001B6B01 /* compar.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA1E160630B6001B6B01 /* compar.rb */; };
+		1239CA2C160630B6001B6B01 /* enum.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA1F160630B6001B6B01 /* enum.rb */; };
+		1239CA2D160630B6001B6B01 /* error.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA20160630B6001B6B01 /* error.rb */; };
+		1239CA2E160630B6001B6B01 /* hash.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA21160630B6001B6B01 /* hash.rb */; };
+		1239CA2F160630B6001B6B01 /* kernel.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA22160630B6001B6B01 /* kernel.rb */; };
+		1239CA30160630B6001B6B01 /* mrblib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA23160630B6001B6B01 /* mrblib.c */; };
+		1239CA31160630B6001B6B01 /* numeric.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA24160630B6001B6B01 /* numeric.rb */; };
+		1239CA32160630B6001B6B01 /* print.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA25160630B6001B6B01 /* print.rb */; };
+		1239CA33160630B6001B6B01 /* range.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA26160630B6001B6B01 /* range.rb */; };
+		1239CA34160630B6001B6B01 /* string.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA27160630B6001B6B01 /* string.rb */; };
+		1239CA35160630B6001B6B01 /* struct.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA28160630B6001B6B01 /* struct.rb */; };
+		1239CA85160630FC001B6B01 /* .state.c.swp in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA4C160630FC001B6B01 /* .state.c.swp */; };
+		1239CA86160630FC001B6B01 /* array.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA4D160630FC001B6B01 /* array.c */; };
+		1239CA87160630FC001B6B01 /* cdump.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA4E160630FC001B6B01 /* cdump.c */; };
+		1239CA88160630FC001B6B01 /* class.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA4F160630FC001B6B01 /* class.c */; };
+		1239CA89160630FC001B6B01 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA50160630FC001B6B01 /* CMakeLists.txt */; };
+		1239CA8A160630FC001B6B01 /* codegen.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA51160630FC001B6B01 /* codegen.c */; };
+		1239CA8B160630FC001B6B01 /* compar.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA52160630FC001B6B01 /* compar.c */; };
+		1239CA8C160630FC001B6B01 /* crc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA53160630FC001B6B01 /* crc.c */; };
+		1239CA8D160630FC001B6B01 /* dump.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA54160630FC001B6B01 /* dump.c */; };
+		1239CA8E160630FC001B6B01 /* enum.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA56160630FC001B6B01 /* enum.c */; };
+		1239CA8F160630FC001B6B01 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA57160630FC001B6B01 /* error.c */; };
+		1239CA90160630FC001B6B01 /* etc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA59160630FC001B6B01 /* etc.c */; };
+		1239CA91160630FC001B6B01 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA5B160630FC001B6B01 /* .gitkeep */; };
+		1239CA92160630FC001B6B01 /* gc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA5C160630FC001B6B01 /* gc.c */; };
+		1239CA93160630FC001B6B01 /* hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA5D160630FC001B6B01 /* hash.c */; };
+		1239CA94160630FC001B6B01 /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA5E160630FC001B6B01 /* init.c */; };
+		1239CA95160630FC001B6B01 /* init_ext.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA5F160630FC001B6B01 /* init_ext.c */; };
+		1239CA96160630FC001B6B01 /* kernel.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA60160630FC001B6B01 /* kernel.c */; };
+		1239CA97160630FC001B6B01 /* keywords in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA61160630FC001B6B01 /* keywords */; };
+		1239CA98160630FC001B6B01 /* lex.def in Resources */ = {isa = PBXBuildFile; fileRef = 1239CA62160630FC001B6B01 /* lex.def */; };
+		1239CA99160630FC001B6B01 /* load.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA63160630FC001B6B01 /* load.c */; };
+		1239CA9A160630FC001B6B01 /* math.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA64160630FC001B6B01 /* math.c */; };
+		1239CA9B160630FC001B6B01 /* numeric.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA67160630FC001B6B01 /* numeric.c */; };
+		1239CA9C160630FC001B6B01 /* object.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA68160630FC001B6B01 /* object.c */; };
+		1239CA9D160630FC001B6B01 /* parse.y in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA6B160630FC001B6B01 /* parse.y */; };
+		1239CA9E160630FC001B6B01 /* pool.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA6C160630FC001B6B01 /* pool.c */; };
+		1239CA9F160630FC001B6B01 /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA6D160630FC001B6B01 /* print.c */; };
+		1239CAA0160630FC001B6B01 /* proc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA6E160630FC001B6B01 /* proc.c */; };
+		1239CAA1160630FC001B6B01 /* range.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA6F160630FC001B6B01 /* range.c */; };
+		1239CAA2160630FC001B6B01 /* re.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA70160630FC001B6B01 /* re.c */; };
+		1239CAA3160630FC001B6B01 /* regcomp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA72160630FC001B6B01 /* regcomp.c */; };
+		1239CAA4160630FC001B6B01 /* regenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA73160630FC001B6B01 /* regenc.c */; };
+		1239CAA5160630FC001B6B01 /* regerror.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA75160630FC001B6B01 /* regerror.c */; };
+		1239CAA6160630FC001B6B01 /* regexec.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA77160630FC001B6B01 /* regexec.c */; };
+		1239CAA7160630FC001B6B01 /* regparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA79160630FC001B6B01 /* regparse.c */; };
+		1239CAA8160630FC001B6B01 /* sprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA7B160630FC001B6B01 /* sprintf.c */; };
+		1239CAA9160630FC001B6B01 /* st.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA7C160630FC001B6B01 /* st.c */; };
+		1239CAAA160630FC001B6B01 /* state.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA7E160630FC001B6B01 /* state.c */; };
+		1239CAAB160630FC001B6B01 /* string.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA7F160630FC001B6B01 /* string.c */; };
+		1239CAAC160630FC001B6B01 /* struct.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA80160630FC001B6B01 /* struct.c */; };
+		1239CAAD160630FC001B6B01 /* symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA81160630FC001B6B01 /* symbol.c */; };
+		1239CAAE160630FC001B6B01 /* time.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA82160630FC001B6B01 /* time.c */; };
+		1239CAAF160630FC001B6B01 /* variable.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA83160630FC001B6B01 /* variable.c */; };
+		1239CAB0160630FC001B6B01 /* vm.c in Sources */ = {isa = PBXBuildFile; fileRef = 1239CA84160630FC001B6B01 /* vm.c */; };
+		1239CAB3160639C1001B6B01 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1239CAB2160639C1001B6B01 /* MainViewController.m */; };
+		1239CACF1606C250001B6B01 /* MethodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1239CACE1606C250001B6B01 /* MethodsViewController.m */; };
+		124CBEC51608C09900929B9E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 124CBEC41608C09900929B9E /* Icon@2x.png */; };
+		124CBEC71608C0F000929B9E /* Ruby-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 124CBEC61608C0F000929B9E /* Ruby-Info.plist */; };
+		12537D761614139600FCE03C /* ObjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537D751614139600FCE03C /* ObjectsViewController.m */; };
+		12F41590162015B400903704 /* utilitiesI60.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F4158F162015B400903704 /* utilitiesI60.png */; };
+		12F41593162201C600903704 /* ConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F41592162201C600903704 /* ConsoleViewController.m */; };
+		12F4159F1623D63D00903704 /* mirb.c in Sources */ = {isa = PBXBuildFile; fileRef = 12F4159E1623D63D00903704 /* mirb.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12041C7F161C894900589018 /* utilitiesI70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utilitiesI70.png; sourceTree = "<group>"; };
+		12041C82161DD5E200589018 /* IEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IEViewController.h; path = ../../IEViewController.h; sourceTree = "<group>"; };
+		12041C83161DD5E200589018 /* IEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IEViewController.m; path = ../../IEViewController.m; sourceTree = "<group>"; };
+		1225A8C61624671F00225492 /* MIRBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIRBViewController.h; sourceTree = "<group>"; };
+		1225A8C71624671F00225492 /* MIRBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIRBViewController.m; sourceTree = "<group>"; };
+		1239C9E816062F0F001B6B01 /* Ruby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ruby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1239C9EC16062F0F001B6B01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1239C9EE16062F0F001B6B01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1239C9F016062F0F001B6B01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1239C9F616062F0F001B6B01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1239C9F816062F0F001B6B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1239C9FA16062F0F001B6B01 /* Ruby-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ruby-Prefix.pch"; sourceTree = "<group>"; };
+		1239C9FB16062F0F001B6B01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1239C9FC16062F0F001B6B01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1239C9FF16062F0F001B6B01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		1239CA1C160630B6001B6B01 /* array.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = array.rb; sourceTree = "<group>"; };
+		1239CA1D160630B6001B6B01 /* class.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = class.rb; sourceTree = "<group>"; };
+		1239CA1E160630B6001B6B01 /* compar.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = compar.rb; sourceTree = "<group>"; };
+		1239CA1F160630B6001B6B01 /* enum.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = enum.rb; sourceTree = "<group>"; };
+		1239CA20160630B6001B6B01 /* error.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = error.rb; sourceTree = "<group>"; };
+		1239CA21160630B6001B6B01 /* hash.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = hash.rb; sourceTree = "<group>"; };
+		1239CA22160630B6001B6B01 /* kernel.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = kernel.rb; sourceTree = "<group>"; };
+		1239CA23160630B6001B6B01 /* mrblib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mrblib.c; sourceTree = "<group>"; };
+		1239CA24160630B6001B6B01 /* numeric.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = numeric.rb; sourceTree = "<group>"; };
+		1239CA25160630B6001B6B01 /* print.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = print.rb; sourceTree = "<group>"; };
+		1239CA26160630B6001B6B01 /* range.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = range.rb; sourceTree = "<group>"; };
+		1239CA27160630B6001B6B01 /* string.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = string.rb; sourceTree = "<group>"; };
+		1239CA28160630B6001B6B01 /* struct.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = struct.rb; sourceTree = "<group>"; };
+		1239CA37160630CC001B6B01 /* mrbconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mrbconf.h; sourceTree = "<group>"; };
+		1239CA39160630CC001B6B01 /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
+		1239CA3A160630CC001B6B01 /* cdump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdump.h; sourceTree = "<group>"; };
+		1239CA3B160630CC001B6B01 /* class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = class.h; sourceTree = "<group>"; };
+		1239CA3C160630CC001B6B01 /* compile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compile.h; sourceTree = "<group>"; };
+		1239CA3D160630CC001B6B01 /* data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data.h; sourceTree = "<group>"; };
+		1239CA3E160630CC001B6B01 /* dump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dump.h; sourceTree = "<group>"; };
+		1239CA3F160630CC001B6B01 /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		1239CA40160630CC001B6B01 /* irep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = irep.h; sourceTree = "<group>"; };
+		1239CA41160630CC001B6B01 /* khash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = khash.h; sourceTree = "<group>"; };
+		1239CA42160630CC001B6B01 /* numeric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numeric.h; sourceTree = "<group>"; };
+		1239CA43160630CC001B6B01 /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		1239CA44160630CC001B6B01 /* proc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proc.h; sourceTree = "<group>"; };
+		1239CA45160630CC001B6B01 /* range.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = range.h; sourceTree = "<group>"; };
+		1239CA46160630CC001B6B01 /* string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string.h; sourceTree = "<group>"; };
+		1239CA47160630CC001B6B01 /* struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = struct.h; sourceTree = "<group>"; };
+		1239CA48160630CC001B6B01 /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = value.h; sourceTree = "<group>"; };
+		1239CA49160630CC001B6B01 /* variable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = variable.h; sourceTree = "<group>"; };
+		1239CA4A160630CC001B6B01 /* mruby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mruby.h; sourceTree = "<group>"; };
+		1239CA4C160630FC001B6B01 /* .state.c.swp */ = {isa = PBXFileReference; lastKnownFileType = file; path = .state.c.swp; sourceTree = "<group>"; };
+		1239CA4D160630FC001B6B01 /* array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = array.c; sourceTree = "<group>"; };
+		1239CA4E160630FC001B6B01 /* cdump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdump.c; sourceTree = "<group>"; };
+		1239CA4F160630FC001B6B01 /* class.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = class.c; sourceTree = "<group>"; };
+		1239CA50160630FC001B6B01 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		1239CA51160630FC001B6B01 /* codegen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = codegen.c; sourceTree = "<group>"; };
+		1239CA52160630FC001B6B01 /* compar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compar.c; sourceTree = "<group>"; };
+		1239CA53160630FC001B6B01 /* crc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crc.c; sourceTree = "<group>"; };
+		1239CA54160630FC001B6B01 /* dump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dump.c; sourceTree = "<group>"; };
+		1239CA55160630FC001B6B01 /* encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoding.h; sourceTree = "<group>"; };
+		1239CA56160630FC001B6B01 /* enum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = enum.c; sourceTree = "<group>"; };
+		1239CA57160630FC001B6B01 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
+		1239CA58160630FC001B6B01 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		1239CA59160630FC001B6B01 /* etc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = etc.c; sourceTree = "<group>"; };
+		1239CA5B160630FC001B6B01 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		1239CA5C160630FC001B6B01 /* gc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gc.c; sourceTree = "<group>"; };
+		1239CA5D160630FC001B6B01 /* hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hash.c; sourceTree = "<group>"; };
+		1239CA5E160630FC001B6B01 /* init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = init.c; sourceTree = "<group>"; };
+		1239CA5F160630FC001B6B01 /* init_ext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = init_ext.c; sourceTree = "<group>"; };
+		1239CA60160630FC001B6B01 /* kernel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kernel.c; sourceTree = "<group>"; };
+		1239CA61160630FC001B6B01 /* keywords */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keywords; sourceTree = "<group>"; };
+		1239CA62160630FC001B6B01 /* lex.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lex.def; sourceTree = "<group>"; };
+		1239CA63160630FC001B6B01 /* load.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = load.c; sourceTree = "<group>"; };
+		1239CA64160630FC001B6B01 /* math.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = math.c; sourceTree = "<group>"; };
+		1239CA65160630FC001B6B01 /* name2ctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = name2ctype.h; sourceTree = "<group>"; };
+		1239CA66160630FC001B6B01 /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		1239CA67160630FC001B6B01 /* numeric.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = numeric.c; sourceTree = "<group>"; };
+		1239CA68160630FC001B6B01 /* object.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = object.c; sourceTree = "<group>"; };
+		1239CA69160630FC001B6B01 /* oniguruma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oniguruma.h; sourceTree = "<group>"; };
+		1239CA6A160630FC001B6B01 /* opcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opcode.h; sourceTree = "<group>"; };
+		1239CA6B160630FC001B6B01 /* parse.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; path = parse.y; sourceTree = "<group>"; };
+		1239CA6C160630FC001B6B01 /* pool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pool.c; sourceTree = "<group>"; };
+		1239CA6D160630FC001B6B01 /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
+		1239CA6E160630FC001B6B01 /* proc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = proc.c; sourceTree = "<group>"; };
+		1239CA6F160630FC001B6B01 /* range.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = range.c; sourceTree = "<group>"; };
+		1239CA70160630FC001B6B01 /* re.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = re.c; sourceTree = "<group>"; };
+		1239CA71160630FC001B6B01 /* re.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = re.h; sourceTree = "<group>"; };
+		1239CA72160630FC001B6B01 /* regcomp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regcomp.c; sourceTree = "<group>"; };
+		1239CA73160630FC001B6B01 /* regenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regenc.c; sourceTree = "<group>"; };
+		1239CA74160630FC001B6B01 /* regenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regenc.h; sourceTree = "<group>"; };
+		1239CA75160630FC001B6B01 /* regerror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regerror.c; sourceTree = "<group>"; };
+		1239CA76160630FC001B6B01 /* regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regex.h; sourceTree = "<group>"; };
+		1239CA77160630FC001B6B01 /* regexec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regexec.c; sourceTree = "<group>"; };
+		1239CA78160630FC001B6B01 /* regint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regint.h; sourceTree = "<group>"; };
+		1239CA79160630FC001B6B01 /* regparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regparse.c; sourceTree = "<group>"; };
+		1239CA7A160630FC001B6B01 /* regparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regparse.h; sourceTree = "<group>"; };
+		1239CA7B160630FC001B6B01 /* sprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sprintf.c; sourceTree = "<group>"; };
+		1239CA7C160630FC001B6B01 /* st.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = st.c; sourceTree = "<group>"; };
+		1239CA7D160630FC001B6B01 /* st.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = st.h; sourceTree = "<group>"; };
+		1239CA7E160630FC001B6B01 /* state.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = state.c; sourceTree = "<group>"; };
+		1239CA7F160630FC001B6B01 /* string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = string.c; sourceTree = "<group>"; };
+		1239CA80160630FC001B6B01 /* struct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = struct.c; sourceTree = "<group>"; };
+		1239CA81160630FC001B6B01 /* symbol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = symbol.c; sourceTree = "<group>"; };
+		1239CA82160630FC001B6B01 /* time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = time.c; sourceTree = "<group>"; };
+		1239CA83160630FC001B6B01 /* variable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = variable.c; sourceTree = "<group>"; };
+		1239CA84160630FC001B6B01 /* vm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vm.c; sourceTree = "<group>"; };
+		1239CAB1160639C1001B6B01 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1239CAB2160639C1001B6B01 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MainViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1239CACD1606C250001B6B01 /* MethodsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodsViewController.h; sourceTree = "<group>"; };
+		1239CACE1606C250001B6B01 /* MethodsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodsViewController.m; sourceTree = "<group>"; };
+		124CBEC41608C09900929B9E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		124CBEC61608C0F000929B9E /* Ruby-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Ruby-Info.plist"; sourceTree = "<group>"; };
+		12537D741614139600FCE03C /* ObjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ObjectsViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		12537D751614139600FCE03C /* ObjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ObjectsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		12F4158F162015B400903704 /* utilitiesI60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utilitiesI60.png; sourceTree = "<group>"; };
+		12F41591162201C600903704 /* ConsoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleViewController.h; sourceTree = "<group>"; };
+		12F41592162201C600903704 /* ConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleViewController.m; sourceTree = "<group>"; };
+		12F4159E1623D63D00903704 /* mirb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mirb.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1239C9E516062F0F001B6B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1239C9ED16062F0F001B6B01 /* UIKit.framework in Frameworks */,
+				1239C9EF16062F0F001B6B01 /* Foundation.framework in Frameworks */,
+				1239C9F116062F0F001B6B01 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1239C9DD16062F0F001B6B01 = {
+			isa = PBXGroup;
+			children = (
+				1239C9F216062F0F001B6B01 /* ObjC */,
+				1239CA1A16063015001B6B01 /* Ruby */,
+				1239C9EB16062F0F001B6B01 /* Frameworks */,
+				1239C9E916062F0F001B6B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1239C9E916062F0F001B6B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1239C9E816062F0F001B6B01 /* Ruby.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1239C9EB16062F0F001B6B01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1239C9EC16062F0F001B6B01 /* UIKit.framework */,
+				1239C9EE16062F0F001B6B01 /* Foundation.framework */,
+				1239C9F016062F0F001B6B01 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1239C9F216062F0F001B6B01 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				1239C9FB16062F0F001B6B01 /* AppDelegate.h */,
+				1239C9FC16062F0F001B6B01 /* AppDelegate.m */,
+				1225A8C61624671F00225492 /* MIRBViewController.h */,
+				1225A8C71624671F00225492 /* MIRBViewController.m */,
+				1239CAB1160639C1001B6B01 /* MainViewController.h */,
+				1239CAB2160639C1001B6B01 /* MainViewController.m */,
+				12F41591162201C600903704 /* ConsoleViewController.h */,
+				12F41592162201C600903704 /* ConsoleViewController.m */,
+				12537D741614139600FCE03C /* ObjectsViewController.h */,
+				12537D751614139600FCE03C /* ObjectsViewController.m */,
+				12041C82161DD5E200589018 /* IEViewController.h */,
+				12041C83161DD5E200589018 /* IEViewController.m */,
+				1239CACD1606C250001B6B01 /* MethodsViewController.h */,
+				1239CACE1606C250001B6B01 /* MethodsViewController.m */,
+				1239C9FE16062F0F001B6B01 /* MainStoryboard_iPhone.storyboard */,
+				1239C9F316062F0F001B6B01 /* Supporting Files */,
+			);
+			name = ObjC;
+			path = A1100;
+			sourceTree = "<group>";
+		};
+		1239C9F316062F0F001B6B01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12F4158F162015B400903704 /* utilitiesI60.png */,
+				12041C7F161C894900589018 /* utilitiesI70.png */,
+				124CBEC61608C0F000929B9E /* Ruby-Info.plist */,
+				124CBEC41608C09900929B9E /* Icon@2x.png */,
+				1239C9F516062F0F001B6B01 /* InfoPlist.strings */,
+				1239C9F816062F0F001B6B01 /* main.m */,
+				1239C9FA16062F0F001B6B01 /* Ruby-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1239CA1A16063015001B6B01 /* Ruby */ = {
+			isa = PBXGroup;
+			children = (
+				12F4159E1623D63D00903704 /* mirb.c */,
+				1239CA1B160630B6001B6B01 /* mrblib */,
+				1239CA36160630CC001B6B01 /* include */,
+				1239CA4B160630FC001B6B01 /* src */,
+			);
+			name = Ruby;
+			sourceTree = "<group>";
+		};
+		1239CA1B160630B6001B6B01 /* mrblib */ = {
+			isa = PBXGroup;
+			children = (
+				1239CA1C160630B6001B6B01 /* array.rb */,
+				1239CA1D160630B6001B6B01 /* class.rb */,
+				1239CA1E160630B6001B6B01 /* compar.rb */,
+				1239CA1F160630B6001B6B01 /* enum.rb */,
+				1239CA20160630B6001B6B01 /* error.rb */,
+				1239CA21160630B6001B6B01 /* hash.rb */,
+				1239CA22160630B6001B6B01 /* kernel.rb */,
+				1239CA23160630B6001B6B01 /* mrblib.c */,
+				1239CA24160630B6001B6B01 /* numeric.rb */,
+				1239CA25160630B6001B6B01 /* print.rb */,
+				1239CA26160630B6001B6B01 /* range.rb */,
+				1239CA27160630B6001B6B01 /* string.rb */,
+				1239CA28160630B6001B6B01 /* struct.rb */,
+			);
+			path = mrblib;
+			sourceTree = "<group>";
+		};
+		1239CA36160630CC001B6B01 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				1239CA37160630CC001B6B01 /* mrbconf.h */,
+				1239CA38160630CC001B6B01 /* mruby */,
+				1239CA4A160630CC001B6B01 /* mruby.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		1239CA38160630CC001B6B01 /* mruby */ = {
+			isa = PBXGroup;
+			children = (
+				1239CA39160630CC001B6B01 /* array.h */,
+				1239CA3A160630CC001B6B01 /* cdump.h */,
+				1239CA3B160630CC001B6B01 /* class.h */,
+				1239CA3C160630CC001B6B01 /* compile.h */,
+				1239CA3D160630CC001B6B01 /* data.h */,
+				1239CA3E160630CC001B6B01 /* dump.h */,
+				1239CA3F160630CC001B6B01 /* hash.h */,
+				1239CA40160630CC001B6B01 /* irep.h */,
+				1239CA41160630CC001B6B01 /* khash.h */,
+				1239CA42160630CC001B6B01 /* numeric.h */,
+				1239CA43160630CC001B6B01 /* object.h */,
+				1239CA44160630CC001B6B01 /* proc.h */,
+				1239CA45160630CC001B6B01 /* range.h */,
+				1239CA46160630CC001B6B01 /* string.h */,
+				1239CA47160630CC001B6B01 /* struct.h */,
+				1239CA48160630CC001B6B01 /* value.h */,
+				1239CA49160630CC001B6B01 /* variable.h */,
+			);
+			path = mruby;
+			sourceTree = "<group>";
+		};
+		1239CA4B160630FC001B6B01 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1239CA4C160630FC001B6B01 /* .state.c.swp */,
+				1239CA4D160630FC001B6B01 /* array.c */,
+				1239CA4E160630FC001B6B01 /* cdump.c */,
+				1239CA4F160630FC001B6B01 /* class.c */,
+				1239CA50160630FC001B6B01 /* CMakeLists.txt */,
+				1239CA51160630FC001B6B01 /* codegen.c */,
+				1239CA52160630FC001B6B01 /* compar.c */,
+				1239CA53160630FC001B6B01 /* crc.c */,
+				1239CA54160630FC001B6B01 /* dump.c */,
+				1239CA55160630FC001B6B01 /* encoding.h */,
+				1239CA56160630FC001B6B01 /* enum.c */,
+				1239CA57160630FC001B6B01 /* error.c */,
+				1239CA58160630FC001B6B01 /* error.h */,
+				1239CA59160630FC001B6B01 /* etc.c */,
+				1239CA5A160630FC001B6B01 /* ext */,
+				1239CA5C160630FC001B6B01 /* gc.c */,
+				1239CA5D160630FC001B6B01 /* hash.c */,
+				1239CA5E160630FC001B6B01 /* init.c */,
+				1239CA5F160630FC001B6B01 /* init_ext.c */,
+				1239CA60160630FC001B6B01 /* kernel.c */,
+				1239CA61160630FC001B6B01 /* keywords */,
+				1239CA62160630FC001B6B01 /* lex.def */,
+				1239CA63160630FC001B6B01 /* load.c */,
+				1239CA64160630FC001B6B01 /* math.c */,
+				1239CA65160630FC001B6B01 /* name2ctype.h */,
+				1239CA66160630FC001B6B01 /* node.h */,
+				1239CA67160630FC001B6B01 /* numeric.c */,
+				1239CA68160630FC001B6B01 /* object.c */,
+				1239CA69160630FC001B6B01 /* oniguruma.h */,
+				1239CA6A160630FC001B6B01 /* opcode.h */,
+				1239CA6B160630FC001B6B01 /* parse.y */,
+				1239CA6C160630FC001B6B01 /* pool.c */,
+				1239CA6D160630FC001B6B01 /* print.c */,
+				1239CA6E160630FC001B6B01 /* proc.c */,
+				1239CA6F160630FC001B6B01 /* range.c */,
+				1239CA70160630FC001B6B01 /* re.c */,
+				1239CA71160630FC001B6B01 /* re.h */,
+				1239CA72160630FC001B6B01 /* regcomp.c */,
+				1239CA73160630FC001B6B01 /* regenc.c */,
+				1239CA74160630FC001B6B01 /* regenc.h */,
+				1239CA75160630FC001B6B01 /* regerror.c */,
+				1239CA76160630FC001B6B01 /* regex.h */,
+				1239CA77160630FC001B6B01 /* regexec.c */,
+				1239CA78160630FC001B6B01 /* regint.h */,
+				1239CA79160630FC001B6B01 /* regparse.c */,
+				1239CA7A160630FC001B6B01 /* regparse.h */,
+				1239CA7B160630FC001B6B01 /* sprintf.c */,
+				1239CA7C160630FC001B6B01 /* st.c */,
+				1239CA7D160630FC001B6B01 /* st.h */,
+				1239CA7E160630FC001B6B01 /* state.c */,
+				1239CA7F160630FC001B6B01 /* string.c */,
+				1239CA80160630FC001B6B01 /* struct.c */,
+				1239CA81160630FC001B6B01 /* symbol.c */,
+				1239CA82160630FC001B6B01 /* time.c */,
+				1239CA83160630FC001B6B01 /* variable.c */,
+				1239CA84160630FC001B6B01 /* vm.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		1239CA5A160630FC001B6B01 /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				1239CA5B160630FC001B6B01 /* .gitkeep */,
+			);
+			path = ext;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1239C9E716062F0F001B6B01 /* Ruby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1239CA1416062F0F001B6B01 /* Build configuration list for PBXNativeTarget "Ruby" */;
+			buildPhases = (
+				1239C9E416062F0F001B6B01 /* Sources */,
+				1239C9E516062F0F001B6B01 /* Frameworks */,
+				1239C9E616062F0F001B6B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ruby;
+			productName = A1100;
+			productReference = 1239C9E816062F0F001B6B01 /* Ruby.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1239C9DF16062F0F001B6B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = armhcmtem;
+			};
+			buildConfigurationList = 1239C9E216062F0F001B6B01 /* Build configuration list for PBXProject "Ruby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1239C9DD16062F0F001B6B01;
+			productRefGroup = 1239C9E916062F0F001B6B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1239C9E716062F0F001B6B01 /* Ruby */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1239C9E616062F0F001B6B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1239C9F716062F0F001B6B01 /* InfoPlist.strings in Resources */,
+				1239CA0016062F0F001B6B01 /* MainStoryboard_iPhone.storyboard in Resources */,
+				1239CA29160630B6001B6B01 /* array.rb in Resources */,
+				1239CA2A160630B6001B6B01 /* class.rb in Resources */,
+				1239CA2B160630B6001B6B01 /* compar.rb in Resources */,
+				1239CA2C160630B6001B6B01 /* enum.rb in Resources */,
+				1239CA2D160630B6001B6B01 /* error.rb in Resources */,
+				1239CA2E160630B6001B6B01 /* hash.rb in Resources */,
+				1239CA2F160630B6001B6B01 /* kernel.rb in Resources */,
+				1239CA31160630B6001B6B01 /* numeric.rb in Resources */,
+				1239CA32160630B6001B6B01 /* print.rb in Resources */,
+				1239CA33160630B6001B6B01 /* range.rb in Resources */,
+				1239CA34160630B6001B6B01 /* string.rb in Resources */,
+				1239CA35160630B6001B6B01 /* struct.rb in Resources */,
+				1239CA85160630FC001B6B01 /* .state.c.swp in Resources */,
+				1239CA89160630FC001B6B01 /* CMakeLists.txt in Resources */,
+				1239CA91160630FC001B6B01 /* .gitkeep in Resources */,
+				1239CA97160630FC001B6B01 /* keywords in Resources */,
+				1239CA98160630FC001B6B01 /* lex.def in Resources */,
+				124CBEC51608C09900929B9E /* Icon@2x.png in Resources */,
+				124CBEC71608C0F000929B9E /* Ruby-Info.plist in Resources */,
+				12041C80161C894900589018 /* utilitiesI70.png in Resources */,
+				12F41590162015B400903704 /* utilitiesI60.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1239C9E416062F0F001B6B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1239C9F916062F0F001B6B01 /* main.m in Sources */,
+				1239C9FD16062F0F001B6B01 /* AppDelegate.m in Sources */,
+				1239CA30160630B6001B6B01 /* mrblib.c in Sources */,
+				1239CA86160630FC001B6B01 /* array.c in Sources */,
+				1239CA87160630FC001B6B01 /* cdump.c in Sources */,
+				1239CA88160630FC001B6B01 /* class.c in Sources */,
+				1239CA8A160630FC001B6B01 /* codegen.c in Sources */,
+				1239CA8B160630FC001B6B01 /* compar.c in Sources */,
+				1239CA8C160630FC001B6B01 /* crc.c in Sources */,
+				1239CA8D160630FC001B6B01 /* dump.c in Sources */,
+				1239CA8E160630FC001B6B01 /* enum.c in Sources */,
+				1239CA8F160630FC001B6B01 /* error.c in Sources */,
+				1239CA90160630FC001B6B01 /* etc.c in Sources */,
+				1239CA92160630FC001B6B01 /* gc.c in Sources */,
+				1239CA93160630FC001B6B01 /* hash.c in Sources */,
+				1239CA94160630FC001B6B01 /* init.c in Sources */,
+				1239CA95160630FC001B6B01 /* init_ext.c in Sources */,
+				1239CA96160630FC001B6B01 /* kernel.c in Sources */,
+				1239CA99160630FC001B6B01 /* load.c in Sources */,
+				1239CA9A160630FC001B6B01 /* math.c in Sources */,
+				1239CA9B160630FC001B6B01 /* numeric.c in Sources */,
+				1239CA9C160630FC001B6B01 /* object.c in Sources */,
+				1239CA9D160630FC001B6B01 /* parse.y in Sources */,
+				1239CA9E160630FC001B6B01 /* pool.c in Sources */,
+				1239CA9F160630FC001B6B01 /* print.c in Sources */,
+				1239CAA0160630FC001B6B01 /* proc.c in Sources */,
+				1239CAA1160630FC001B6B01 /* range.c in Sources */,
+				1239CAA2160630FC001B6B01 /* re.c in Sources */,
+				1239CAA3160630FC001B6B01 /* regcomp.c in Sources */,
+				1239CAA4160630FC001B6B01 /* regenc.c in Sources */,
+				1239CAA5160630FC001B6B01 /* regerror.c in Sources */,
+				1239CAA6160630FC001B6B01 /* regexec.c in Sources */,
+				1239CAA7160630FC001B6B01 /* regparse.c in Sources */,
+				1239CAA8160630FC001B6B01 /* sprintf.c in Sources */,
+				1239CAA9160630FC001B6B01 /* st.c in Sources */,
+				1239CAAA160630FC001B6B01 /* state.c in Sources */,
+				1239CAAB160630FC001B6B01 /* string.c in Sources */,
+				1239CAAC160630FC001B6B01 /* struct.c in Sources */,
+				1239CAAD160630FC001B6B01 /* symbol.c in Sources */,
+				1239CAAE160630FC001B6B01 /* time.c in Sources */,
+				1239CAAF160630FC001B6B01 /* variable.c in Sources */,
+				1239CAB0160630FC001B6B01 /* vm.c in Sources */,
+				1239CAB3160639C1001B6B01 /* MainViewController.m in Sources */,
+				1239CACF1606C250001B6B01 /* MethodsViewController.m in Sources */,
+				12537D761614139600FCE03C /* ObjectsViewController.m in Sources */,
+				12041C84161DD5E200589018 /* IEViewController.m in Sources */,
+				12F41593162201C600903704 /* ConsoleViewController.m in Sources */,
+				12F4159F1623D63D00903704 /* mirb.c in Sources */,
+				1225A8C81624671F00225492 /* MIRBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1239C9F516062F0F001B6B01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1239C9F616062F0F001B6B01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1239C9FE16062F0F001B6B01 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1239C9FF16062F0F001B6B01 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1239CA1216062F0F001B6B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1239CA1316062F0F001B6B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1239CA1516062F0F001B6B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A1100/Ruby-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/include\"",
+					"\"$(SRCROOT)/src\"",
+				);
+				INFOPLIST_FILE = "A1100/Ruby-Info.plist";
+				PRODUCT_NAME = Ruby;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1239CA1616062F0F001B6B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A1100/Ruby-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/include\"",
+					"\"$(SRCROOT)/src\"",
+				);
+				INFOPLIST_FILE = "A1100/Ruby-Info.plist";
+				PRODUCT_NAME = Ruby;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1239C9E216062F0F001B6B01 /* Build configuration list for PBXProject "Ruby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1239CA1216062F0F001B6B01 /* Debug */,
+				1239CA1316062F0F001B6B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1239CA1416062F0F001B6B01 /* Build configuration list for PBXNativeTarget "Ruby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1239CA1516062F0F001B6B01 /* Debug */,
+				1239CA1616062F0F001B6B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1239C9DF16062F0F001B6B01 /* Project object */;
+}
